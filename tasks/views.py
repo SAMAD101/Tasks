@@ -28,6 +28,6 @@ def add(request):
                 'form': form
             })
     return render(request, 'add.html', {
-                'form': NewTaskForm()
-            })
+        'form': NewTaskForm()
+    })
         
